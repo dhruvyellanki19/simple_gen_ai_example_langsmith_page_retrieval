@@ -1,4 +1,4 @@
-# LangChain RAG Example
+# LangChain RAG Starter Example for beginners to Learn
 
 A simple project to learn and practice RAG (Retrieval-Augmented Generation) with LangChain.
 
