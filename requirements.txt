@@ -29,4 +29,5 @@ numexpr
 huggingface_hub
 langchain-core==0.2.37
 streamlit
+langchain-ollama
 
