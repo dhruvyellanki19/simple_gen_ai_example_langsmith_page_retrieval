@@ -8,9 +8,9 @@ from langchain_core.output_parsers import StrOutputParser
 
 load_dotenv()
 
-os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
+langchain_api_key = os.getenv("LANGCHAIN_API_KEY")
+project_name = os.getenv("LANGCHAIN_PROJECT_NAME")
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_PROJECT_NAME"] = os.getenv("LANGCHAIN_PROJECT_NAME")
 
 prompt=ChatPromptTemplate.from_messages(
     [
